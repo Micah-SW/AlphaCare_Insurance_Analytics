@@ -1,0 +1,61 @@
+# 1. Python Essentials (Never commit these)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 2. Jupyter Notebooks
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+# Optional: Ignore output of notebooks if you only want to track code
+# *.ipynb_checkpoints
+
+# 3. Unit Test & Coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# 4. IDE & OS Files
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# 5. DATA & DVC (The Critical Section)
+# -----------------------------------------------------------
+
+# Ignore the actual data files (The large ones)
+data/raw/*
+data/processed/*
+
+# CRITICAL FIX: UN-IGNORE the DVC pointer files (*.dvc) in those folders
+!data/raw/*.dvc
+!data/processed/*.dvc
+
+# Ignore the Local DVC Remote Storage (Simulating S3)
+dvc_storage/
+
+# -----------------------------------------------------------
+# 6. Environment Variables & Secrets
+# -----------------------------------------------------------
+.env
+.env.local
