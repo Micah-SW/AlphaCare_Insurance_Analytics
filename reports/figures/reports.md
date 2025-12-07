@@ -69,5 +69,18 @@ Mean Loss Ratio is the same across all major Provinces.	ANOVA (Analysis of Varia
 Mean Total Claims is the same for Male and Female Gender policyholders.	T-Test	Test if demographic factors are significant drivers of claim severity.
 Marital Status and Claim Status (Claim/No Claim) are independent.	Chi-Squared Test	Test if a demographic category correlates with the likelihood of filing a claim.
 
+4. Generating Statistical Tables...
 
+================================================================================
+TABLE 1: Descriptive Statistics of Core Financial Metrics
+================================================================================
+|       |   totalpremium |     totalclaims |    loss_ratio |
+|:------|---------------:|----------------:|--------------:|
+| count |     1.0001e+06 |      1.0001e+06 |    1.0001e+06 |
+| mean  |    61.91       |     64.86       |    0.22       |
+| std   |   230.28       |   2384.07       |    7.3        |
+| min   |  -782.58       | -12002.4        |  -18.7        |
+| 25%   |     0          |      0          |    0          |
+| 50%   |     2.18       |      0          |    0          |
+| 75%   |    21.93       |      0          |    0          |
 ---

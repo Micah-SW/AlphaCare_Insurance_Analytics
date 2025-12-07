@@ -1,0 +1,6 @@
+Vehicle Type,Mean Loss Ratio,Policy Count,Total Premium,Total Claims,Risk Level
+Heavy Commercial,0.457,"7,401","$460,948","$750,475",🔴 Extreme Risk
+Light Commercial,0.365,"3,897","$260,498","$60,452",🟠 High Risk
+Medium Commercial,0.306,"53,985","$3,922,746","$4,119,867",🟠 High Risk
+Passenger Vehicle,0.209,"933,598","$56,642,017","$59,372,070",🟡 Medium Risk
+Bus,0.0,665,"$58,245","$7,997",🟢 Low Risk

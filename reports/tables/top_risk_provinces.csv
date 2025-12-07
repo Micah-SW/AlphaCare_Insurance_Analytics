@@ -1,0 +1,6 @@
+Province,Mean Loss Ratio,Policy Count,Avg Premium per Policy,Avg Claims per Policy,Risk Tier
+Gauteng,0.262,"393,865",$61.07,$74.63,🟠 Elevated Risk
+Limpopo,0.253,"24,836",$61.90,$40.93,🟠 Elevated Risk
+Mpumalanga,0.236,"52,718",$53.80,$38.79,🟡 Medium Risk
+Western Cape,0.194,"170,796",$57.42,$60.83,🟢 Low Risk
+North West,0.179,"143,287",$52.28,$41.32,🟢 Low Risk

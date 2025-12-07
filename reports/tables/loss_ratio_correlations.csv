@@ -1,0 +1,6 @@
+Feature,Correlation with Loss Ratio,Strength,Direction
+kilowatts,0.003,Weak,Positive
+numberofdoors,0.003,Weak,Positive
+postalcode,-0.003,Weak,Negative
+cylinders,0.002,Weak,Positive
+mmcode,-0.001,Weak,Negative
